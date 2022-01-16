@@ -1,35 +1,53 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="ru">
 <head>
     <meta charset="UTF-8">
     <title>Title</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
-
-Ваш заказ готовится!
-
-21:10 Заказан
-21:40 Выезжает
-21:50 У вас
-
----
-
-Роллы "Мерилэнд"
-330 Р
-
-Пицца с ананасами
-504 Р
-
-Лапша ушастая
-470 Р
-
----
-
-Всего
-1304 Р
-
-Продолжить
-
+<main>
+    <h2>Ваш заказ готовится!</h2>
+    <table width="259">
+        <tr>
+            <td><b>21:10</b></td>
+            <td><b>21:40</b></td>
+            <td><b>21:50</b></td>
+        </tr>
+        <tr>
+            <td>Заказан</td>
+            <td>Выезжает</td>
+            <td>У вас</td>
+        </tr>
+    </table>
+    <br>
+    <hr>
+    <br>
+    <table width="259">
+        <tr>
+            <td>Роллы "Мерилэнд"</td>
+            <td>330 Р</td>
+        </tr>
+        <tr>
+            <td>Пицца с ананасами</td>
+            <td>504 Р</td>
+        </tr>
+        <tr>
+            <td>Лапша ушастая</td>
+            <td>470 Р</td>
+        </tr>
+    </table>
+    <hr>
+    <table width="259">
+        <tr>
+            <td>Всего</td>
+            <td>1304 Р</td>
+        </tr>
+    </table>
+    <br>
+    <form action="main.html">
+        <input type="button" onclick="location.href='main.html'" value="Продолжить">
+    </form>
+</main>
 </body>
 </html>
